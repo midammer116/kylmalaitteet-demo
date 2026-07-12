@@ -866,6 +866,7 @@ html, body { max-width: 100%; overflow-x: hidden; }
     left: 0;
     right: 0;
     bottom: 0;
+    height: calc(100vh - var(--bar-top) - var(--header-h));
     background: #fff;
     padding: 1rem 1.5rem;
     transform: translateX(100%);
