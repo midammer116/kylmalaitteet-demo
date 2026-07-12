@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Käytetyt ja huolletut kylmälaitteet koko Suomeen | KaupanKylmälaitteet.fi</title>
-  <meta name="description" content="Osta käytettyjä ja huollettuja kylmälaitteita koko Suomeen. Pakastekaappeja, pakastealtaita, kylmäaltaita, jääkaappeja ja juomakaappeja edullisesti.">
+  <title>Käytetyt kylmähyllyt | KaupanKylmälaitteet.fi</title>
+  <meta name="description" content="Osta käytettyjä ja huollettuja kylmähyllyjä koko Suomeen. Testattuja, huollettuja ja käyttövalmiita.">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <!-- GA4 — replace G-XXXXXXXXXX with your Measurement ID -->
@@ -58,121 +58,51 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
+  <!-- Breadcrumb -->
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="index.html">Etusivu</a><span>/</span>Käytetyt kylmähyllyt
+    </nav>
+  </div>
+
+  <!-- Page Header -->
+  <div class="container">
+    <div class="page-header">
+      <h1>Käytetyt kylmähyllyt</h1>
+      <p>Käytettyjä kylmähyllyjä myymälä- ja esittelykäyttöön — huollettuina ja takuulla.</p>
+    </div>
+  </div>
+
+  <!-- Product Grid -->
+  <section class="section">
     <div class="container">
-      <div class="hero-inner">
-        <div class="hero-text">
-          <h1>Käytetyt ja huolletut kylmälaitteet koko Suomeen</h1>
-          <p>Laadukkaat käytetyt pakastekaapit, pakastealtaat, kylmäaltaat, jääkaapit ja muut kaupan kylmälaitteet. Testattu, huollettu ja käyttövalmiina suoraan varastosta.</p>
-          <a href="#kategoriat" class="hero-cta">Selaa laitteita</a>
+      <div class="product-grid">
+      <div class="product-card">
+        <div class="carousel">
+          <div class="carousel-track">
+        <div class="carousel-slide"><img src="images/products/TS-117-01-kylma-hylly.jpg" alt="TS-117 kylmähylly" loading="lazy"></div>
+        <div class="carousel-slide"><img src="images/products/TS-117-02-kylma-hylly.jpg" alt="TS-117 kylmähylly" loading="lazy"></div>
+          </div>
+          <button class="carousel-btn prev" aria-label="Edellinen">‹</button>
+          <button class="carousel-btn next" aria-label="Seuraava">›</button>
+          <div class="carousel-dots">
+        <button class="carousel-dot active" aria-label="Kuva 1"></button>
+        <button class="carousel-dot" aria-label="Kuva 2"></button>
+          </div>
         </div>
-        <div class="hero-image">
-          <img src="images/main-hero-image-v1.avif" alt="Käytettyjä kylmälaitteita" loading="eager">
+        <div class="product-body">
+          <div class="product-code">TS-117</div>
+          <h3 class="product-title">TS-117 kylmähylly</h3>
+          <dl class="product-specs">
+            <dt>Leveys</dt><dd>88 cm</dd>
+            <dt>Korkeus</dt><dd>174 cm</dd>
+            <dt>Syvyys</dt><dd>68 cm</dd>
+            <dt>Lämpötila</dt><dd>+7 °C</dd>
+          </dl>
+          <p class="product-extra">Valot OK.</p>
+          <a href="#" class="product-cta contact-trigger">Kysy lisää</a>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Trust bar -->
-  <section class="trust-section">
-    <div class="container">
-      <div class="trust-grid">
-        <div class="trust-item">
-          <div class="trust-number">25+</div>
-          <div class="trust-label">vuotta kokemusta</div>
-        </div>
-        <div class="trust-item">
-          <div class="trust-number">100%</div>
-          <div class="trust-label">testattu ja huollettu</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Category Grid -->
-  <section class="section" id="kategoriat">
-    <div class="container">
-      <h2 class="section-title">Selaa laitteita kategorioittain</h2>
-      <p class="section-sub">Valikoimastamme löytyvät käytetyt ja huolletut kylmälaitteet kaikkiin tarpeisiin.</p>
-      <div class="category-grid">
-
-        <a href="kaytetyt-pakastekaapit.html" class="category-card">
-                  <img src="images/kaytetyt-pakastekaapit.png" alt="Pakastekaapit" loading="lazy" class="cat-img">
-                  <div class="cat-body">
-            <h3>Pakastekaapit</h3>
-            <p>Käytetyt ja huolletut pakastekaapit kaupan ja keittiön tarpeisiin.</p>
-          </div>
-        </a>
-
-        <a href="kaytetyt-pakastealtaat.html" class="category-card">
-                  <img src="images/kaytetyt-pakastealtaat.png" alt="Pakastealtaat" loading="lazy" class="cat-img">
-                  <div class="cat-body">
-            <h3>Pakastealtaat</h3>
-            <p>Avoimet pakastealtaat myymälä- ja varastokäyttöön.</p>
-          </div>
-        </a>
-
-        <a href="kaytetyt-kylma-altaat.html" class="category-card">
-                  <img src="images/kaytetyt-kylma-altaat.png" alt="Kylmäaltaat" loading="lazy" class="cat-img">
-                  <div class="cat-body">
-            <h3>Kylmäaltaat</h3>
-            <p>Kylmäaltaat tuotteiden esittelyyn ja säilytykseen.</p>
-          </div>
-        </a>
-
-        <a href="kaytetyt-jaakaapit.html" class="category-card">
-                  <img src="images/kaytetyt-jaakaapit.png" alt="Jääkaapit" loading="lazy" class="cat-img">
-                  <div class="cat-body">
-            <h3>Jääkaapit</h3>
-            <p>Käytetyt jääkaapit kauppoihin, keittiöihin ja varastoihin.</p>
-          </div>
-        </a>
-
-        <a href="kaytetyt-juomakaapit.html" class="category-card">
-                          <img src="images/kaytetyt-juomakaapit.png" alt="Juomakaapit" loading="lazy" class="cat-img">
-                          <div class="cat-body">
-                    <h3>Juomakaapit</h3>
-                    <p>Juomakaapit ja kylmäkaapit juomien säilytykseen ja esittelyyn.</p>
-                  </div>
-                </a>
-
-                <a href="kaytetyt-kylmahyllyt.html" class="category-card">
-                                  <img src="images/kaytetyt-kylmahyllyt.png" alt="Kylmähyllyt" loading="lazy" class="cat-img">
-                                  <div class="cat-body">
-                    <h3>Kylmähyllyt</h3>
-                    <p>Kylmähyllyt myymälä- ja esittelykäyttöön.</p>
-                  </div>
-                </a>
-
-                
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Services / How it works -->
-  <section class="section" style="background: var(--bg-warm);">
-    <div class="container">
-      <h2 class="section-title text-center">Palvelumme</h2>
-      <p class="section-sub text-center">Tarjoamme kokonaisvaltaista palvelua käytettyjen kylmälaitteiden elinkaaren aikana.</p>
-      <div class="service-grid">
-        <div class="service-card">
-          <div class="icon-circle">🔧</div>
-          <h3>Huollettu ja testattu</h3>
-          <p>Jokainen laite testataan ja tarvittaessa huolletaan ennen myyntiä. Saat käyttövalmiin laitteen.</p>
-        </div>
-        <div class="service-card">
-          <div class="icon-circle">🚚</div>
-          <h3>Nouto ja toimitus</h3>
-          <p>Toimitamme kylmälaitteet turvallisesti ympäri Suomen. Kuljetus hoidetaan ammattitaidolla.</p>
-        </div>
-        <div class="service-card">
-          <div class="icon-circle">♻️</div>
-          <h3>Ympäristöystävällinen kierrätys</h3>
-          <p>Vastaamme vanhojen kylmälaitteiden asianmukaisesta kierrätyksestä. Ympäristö otetaan huomioon jokaisessa vaiheessa.</p>
-        </div>
-
       </div>
     </div>
   </section>
@@ -181,14 +111,13 @@
   <section class="section">
     <div class="container">
       <div class="cta-banner">
-        <h2>Tarvitsetko apua oikean laitteen löytämisessä?</h2>
-        <p>Soita tai lähetä sähköpostia — autamme sinua löytämään juuri sinun tarpeisiisi sopivan kylälaitteen.</p>
+        <h2>Etkö löytänyt etsimääsi?</h2>
+        <p>Ota yhteyttä — meillä on usein laitteita, jotka eivät vielä ole listattu sivustolla.</p>
         <a href="tel:+358405676986" class="btn-accent">Soita: 040 567 6986</a>
         <a href="#" class="btn-outline contact-trigger">Jätä yhteydenottopyyntö</a>
       </div>
     </div>
   </section>
-
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
@@ -247,8 +176,10 @@
   <!-- Lightbox -->
   <div class="lightbox" id="lightbox">
     <button class="lightbox-close" aria-label="Sulje">✕</button>
+    <button class="lightbox-prev" aria-label="Edellinen">‹</button>
+    <button class="lightbox-next" aria-label="Seuraava">›</button>
     <div class="lightbox-content">
-      <div class="img-placeholder">Kuva tulossa</div>
+      <img src="" alt="" class="lightbox-img">
     </div>
   </div>
 
@@ -257,8 +188,7 @@
     <div class="form-modal-overlay"></div>
     <div class="form-modal-box">
       <button class="form-modal-close" aria-label="Sulje">✕</button>
-      <h3>Jätä yhteydenottopyyntö</h3>
-      <p class="form-modal-sub">Soitamme tai laitamme sinulle viestiä mahdollisimman pian.</p>
+      <h3>Soita 040 567 6986 tai jätä yhteydenottopyyntö</h3>
       <form id="contactForm" action="#" method="POST">
         <div class="form-field">
           <label for="cf-nimi">Nimi</label>
